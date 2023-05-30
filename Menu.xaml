@@ -1,0 +1,22 @@
+﻿<Page x:Class="LABA_16.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LABA_16"
+      mc:Ignorable="d" 
+      WindowHeight="200" WindowWidth="380"
+      Title="Menu" FontSize="16">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="back_wpf.png"/>
+        </Grid.Background>
+        
+        <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource btnStyle}" Content="Options" Click="options"/>
+            <Button Style="{StaticResource btnStyle}" Content="About" Click="AboutOpen"/>
+            <Button Style="{StaticResource btnStyle}" Content="Close" Click="CloseApp"/>
+        </StackPanel>
+    </Grid>
+</Page>
