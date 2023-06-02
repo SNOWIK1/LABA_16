@@ -40,5 +40,10 @@ namespace LABA_16
             
             NavigationService.Navigate(new Options());
         }
+
+        private void task_3(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Splitter());
+        }
     }
 }

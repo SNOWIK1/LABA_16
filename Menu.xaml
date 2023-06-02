@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LABA_16"
       mc:Ignorable="d" 
-      WindowHeight="200" WindowWidth="380"
+      WindowHeight="200" WindowWidth="500"
       Title="Menu" FontSize="16">
 
     <Grid>
@@ -14,6 +14,7 @@
         </Grid.Background>
         
         <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource btnStyle}" Content="Task 3" Click="task_3"/>
             <Button Style="{StaticResource btnStyle}" Content="Options" Click="options"/>
             <Button Style="{StaticResource btnStyle}" Content="About" Click="AboutOpen"/>
             <Button Style="{StaticResource btnStyle}" Content="Close" Click="CloseApp"/>
